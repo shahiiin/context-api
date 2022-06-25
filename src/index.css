@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@layer components {
+  body {
+    @apply bg-gray-200 p-5;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+@tailwind utilities;
